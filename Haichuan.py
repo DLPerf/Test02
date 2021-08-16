@@ -21,12 +21,9 @@ class HaichuanSpider(scrapy.Spider):
 
     # redis_key = 'haichuanspider:start_urls'
 
-    # # 动态域获取
-    # def __init__(self, *args,**kwargs):
-    #     domain = kwargs.pop('domain','')
-    #     self.allow_domains = filter(None, domain.split(','))
-    #     super(HaichuanSpider,self).__init__(*args,**kwargs)
 
+	a = 1
+	b = 2
 
     def start_requests(self):  #  爬虫入口
         print("haichuan 起始url")
